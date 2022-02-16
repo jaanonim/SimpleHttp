@@ -1,0 +1,329 @@
+[{
+        "id": 0,
+        "name": "KEY",
+        "dispplayName": "a KEY",
+        "pickable": true,
+        "location": 30,
+        "description": "You opened a tool shed and took an axe",
+        "effect": 1
+    },
+    {
+        "id": 1,
+        "name": "AXE",
+        "dispplayName": "an AXE",
+        "pickable": true,
+        "location": 35,
+        "description": "You cut sticks for sheeplegs",
+        "effect": 2
+    },
+    {
+        "id": 2,
+        "name": "STICKS",
+        "dispplayName": "STICKS",
+        "pickable": true,
+        "location": 23,
+        "description": "You prepared legs for your fake sheep",
+        "effect": 2
+    },
+    {
+        "id": 3,
+        "dispplayName": "sheeplegs",
+        "pickable": false,
+        "name": "sheeplegs",
+        "location": 23
+    },
+    {
+        "id": 4,
+        "dispplayName": "MUSHROOMS",
+        "pickable": true,
+        "name": "MUSHROOMS",
+        "location": 17,
+        "description": "The tavern owner paid you money",
+        "effect": 5
+    },
+    {
+        "id": 5,
+        "dispplayName": "MONEY",
+        "pickable": true,
+        "name": "MONEY",
+        "location": 20,
+        "description": "The cooper sold you a new barrel",
+        "effect": 6
+    },
+    {
+        "id": 6,
+        "dispplayName": "a BARREL",
+        "pickable": true,
+        "name": "BARREL",
+        "location": 23,
+        "description": "You made a nice sheeptrunk",
+        "effect": 7
+    },
+    {
+        "id": 7,
+        "dispplayName": "a sheeptrunk",
+        "pickable": false,
+        "name": "sheeptrunk",
+        "location": 23
+    },
+    {
+        "id": 8,
+        "dispplayName": "BERRIES",
+        "pickable": true,
+        "name": "BERRIES",
+        "location": 19,
+        "description": "The butcher gave you wool",
+        "effect": 9
+    },
+    {
+        "id": 9,
+        "dispplayName": "WOOL",
+        "pickable": true,
+        "name": "WOOL",
+        "location": 23,
+        "description": "You prepared skin for your fake sheep",
+        "effect": 10
+    },
+    {
+        "id": 10,
+        "dispplayName": "a sheepskin",
+        "pickable": false,
+        "name": "sheepskin",
+        "location": 23
+    },
+    {
+        "id": 11,
+        "dispplayName": "a BAG",
+        "pickable": true,
+        "name": "BAG",
+        "location": 31,
+        "description": "You used your tools to make a rag",
+        "effect": 12
+    },
+    {
+        "id": 12,
+        "dispplayName": "a RAG",
+        "pickable": true,
+        "name": "RAG",
+        "location": 23,
+        "description": "You made a fake sheephead",
+        "effect": 13
+    },
+    {
+        "id": 13,
+        "dispplayName": "a sheephead",
+        "pickable": false,
+        "name": "sheephead",
+        "location": 23
+    },
+    {
+        "id": 14,
+        "dispplayName": "a SPADE",
+        "pickable": true,
+        "name": "SPADE",
+        "location": 11,
+        "description": [{
+                "text": "You are digging... ",
+                "time": 2000
+            },
+            {
+                "text": "and digging...",
+                "time": 3000
+            },
+            {
+                "text": "and digging and digging...",
+                "time": 3000
+            },
+            {
+                "text": "and digging and digging and digging...",
+                "time": 3000
+            },
+            {
+                "text": "You are really tired but..",
+                "time": 2000
+            },
+            {
+                "text": "You are still digging",
+                "time": 5000
+            },
+            {
+                "text": "and digging...",
+                "time": 5000
+            },
+            {
+                "text": "and digging and digging...",
+                "time": 5000
+            },
+            {
+                "text": "and digging and digging and digging...",
+                "time": 5000
+            },
+            {
+                "text": "and digging and digging and digging and digging...",
+                "time": 5000
+            },
+            {
+                "text": "and...",
+                "time": 3000
+            },
+            {
+                "text": "That's enough sulphur for you",
+                "time": 3000
+            }
+        ],
+        "effect": 15
+    },
+    {
+        "id": 15,
+        "dispplayName": "SULPHUR",
+        "pickable": true,
+        "name": "SULPHUR",
+        "location": 23,
+        "description": "You prepared a solid poison",
+        "effect": 16
+    },
+    {
+        "id": 16,
+        "dispplayName": "a solid poison",
+        "pickable": false,
+        "name": "solid poison",
+        "location": 23
+    },
+    {
+        "id": 17,
+        "dispplayName": "a BUCKET",
+        "pickable": true,
+        "name": "BUCKET",
+        "location": 7,
+        "description": "You got a bucket full of tar",
+        "effect": 18
+    },
+    {
+        "id": 18,
+        "dispplayName": "TAR",
+        "pickable": true,
+        "name": "TAR",
+        "location": 23,
+        "description": "You prepared a liquid poison",
+        "effect": 19
+    },
+    {
+        "id": 19,
+        "dispplayName": "a liquid poison",
+        "pickable": false,
+        "name": "liquid poison",
+        "location": 23
+    },
+    {
+        "id": 20,
+        "dispplayName": "a dead dragon",
+        "pickable": false,
+        "name": "dead dragon",
+        "location": 23
+    },
+    {
+        "id": 21,
+        "dispplayName": "a STONE",
+        "pickable": true,
+        "name": "STONE"
+    },
+    {
+        "id": 22,
+        "dispplayName": "a FISH",
+        "pickable": true,
+        "name": "FISH"
+    },
+    {
+        "id": 23,
+        "dispplayName": "a KNIFE",
+        "pickable": true,
+        "name": "KNIFE",
+        "location": 23,
+        "description": "You cut a piece of dragon's skin",
+        "require": [{
+            "item": 20,
+            "location": 23
+        }],
+        "effect": 24
+    },
+    {
+        "id": 24,
+        "dispplayName": "a DRAGONSKIN",
+        "pickable": true,
+        "name": "DRAGONSKIN",
+        "location": 31,
+        "description": "You used your tools to make shoes",
+        "effect": 25
+    },
+    {
+        "id": 25,
+        "dispplayName": "a dragonskin SHOES",
+        "pickable": true,
+        "name": "SHOES",
+        "location": 21,
+        "description": "The King is impressed by your shoes",
+        "effect": 26
+    },
+    {
+        "id": 26,
+        "dispplayName": "a PRIZE",
+        "pickable": true,
+        "name": "PRIZE",
+        "win": {
+            "location": 36
+        }
+    },
+    {
+        "id": 27,
+        "dispplayName": "a SHEEP",
+        "pickable": true,
+        "name": "SHEEP",
+        "location": 23,
+        "description": [{
+                "text": "The dragon noticed your gift...",
+                "time": 4000
+            },
+            {
+                "text": "Dragon calmly approach the gift...",
+                "time": 4000
+            },
+            {
+                "text": "Really slowly...",
+                "time": 5000
+            },
+            {
+                "text": "He still has 5 meters left",
+                "time": 5000
+            },
+            {
+                "text": "He is going to eat you",
+                "time": 3000
+            },
+            {
+                "text": "Sorry, error in script",
+                "time": 4000
+            },
+            {
+                "text": "He is going to eat not you, just a gift",
+                "time": 4000
+            },
+            {
+                "text": "The dragon ate your sheep",
+                "time": 4000
+            },
+            {
+                "text": "and...",
+                "time": 4000
+            },
+            {
+                "text": "...",
+                "time": 4000
+            },
+            {
+                "text": "The dragon died!"
+            }
+        ],
+        "locationImg": "dragon.gif",
+        "effect": 20
+    }
+]

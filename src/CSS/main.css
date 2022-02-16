@@ -1,0 +1,99 @@
+:root {
+    --color: #fff
+}
+
+@font-face {
+    font-family: TheFont;
+    src: url('../FONTS/PressStart2P.ttf');
+}
+
+body {
+    color: #fff;
+    background-color: #333;
+    image-rendering: pixelated;
+    font-family: TheFont;
+    font-size: 16px;
+}
+
+main{
+    background-color: #222;
+    color: #fff;
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+}
+
+#image{
+    background-color: var(--color);
+    width: 400px;
+    height: 300px;
+}
+
+#text{
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+#title{
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+#input{
+    color: #fff;
+    width: 100%;
+    background-color: #222;
+    border: 0px;
+    font-family: TheFont;
+    padding: 5px 0;
+    font-size: 16px;
+
+}
+
+#input:focus{
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    color: white;
+    border: 0px;
+}
+
+.images{
+    display: flex;
+}
+
+.compass{
+    background: url(../IMG/compass.png);
+    background-size: 100% 100%;
+    width: 256px;
+    height: 120px;
+    margin: auto;
+}
+
+.hiders{
+    position: relative;
+    background-color: #222;
+    width: 20px;
+    height: 15px;
+}
+
+#n{
+    top: 0px;
+    left: 110px;
+}
+
+#s{
+    top: 90px;
+    left: 120px;
+}
+
+#w{
+    top: 1px;
+    left: 10px;
+}
+
+#e{
+    top: -10px;
+    left: 230px;
+}
