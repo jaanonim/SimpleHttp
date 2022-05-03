@@ -1,6 +1,7 @@
 {
     "startId": 27,
-    "startItems": [{
+    "startItems": [
+        {
             "item": 21,
             "location": 2
         },
@@ -35,79 +36,81 @@
         {
             "item": 14,
             "location": 32
-        },
-        {
-            "item": 26,
-            "location": 23
         }
     ],
-    "effects": [{
-        "time": 1000,
-        "require": [{
-                "item": 3,
-                "location": 23
-            },
-            {
-                "item": 7,
-                "location": 23
-            },
-            {
-                "item": 10,
-                "location": 23
-            },
-            {
-                "item": 13,
-                "location": 23
-            },
-            {
-                "item": 16,
-                "location": 23
-            },
-            {
-                "item": 19,
-                "location": 23
-            }
-        ],
-        "effect": 27,
-        "location": 23,
-        "remove": [{
-                "item": 3,
-                "location": 23
-            },
-            {
-                "item": 7,
-                "location": 23
-            },
-            {
-                "item": 10,
-                "location": 23
-            },
-            {
-                "item": 13,
-                "location": 23
-            },
-            {
-                "item": 16,
-                "location": 23
-            },
-            {
-                "item": 19,
-                "location": 23
-            }
-        ],
-        "description": [{
-                "text": "Your fake sheep is full of poison...",
-                "time": 4000
-            },
-            {
-                "text": "...and ready to be eaten by the dragon",
-                "time": 4000
-            }
-        ]
-    }],
+    "effects": [
+        {
+            "time": 1000,
+            "require": [
+                {
+                    "item": 3,
+                    "location": 23
+                },
+                {
+                    "item": 7,
+                    "location": 23
+                },
+                {
+                    "item": 10,
+                    "location": 23
+                },
+                {
+                    "item": 13,
+                    "location": 23
+                },
+                {
+                    "item": 16,
+                    "location": 23
+                },
+                {
+                    "item": 19,
+                    "location": 23
+                }
+            ],
+            "effect": 27,
+            "location": 23,
+            "remove": [
+                {
+                    "item": 3,
+                    "location": 23
+                },
+                {
+                    "item": 7,
+                    "location": 23
+                },
+                {
+                    "item": 10,
+                    "location": 23
+                },
+                {
+                    "item": 13,
+                    "location": 23
+                },
+                {
+                    "item": 16,
+                    "location": 23
+                },
+                {
+                    "item": 19,
+                    "location": 23
+                }
+            ],
+            "description": [
+                {
+                    "text": "Your fake sheep is full of poison...",
+                    "time": 4000
+                },
+                {
+                    "text": "...and ready to be eaten by the dragon",
+                    "time": 4000
+                }
+            ]
+        }
+    ],
     "intro": {
         "music": "MUSIC/hejnal.mp3",
-        "locations": [{
+        "locations": [
+            {
                 "description": " ",
                 "img": "title.jpg",
                 "color": "rgb(255,255,255)",

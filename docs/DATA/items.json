@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 0,
         "name": "KEY",
         "dispplayName": "a KEY",
@@ -121,8 +122,9 @@
         "dispplayName": "a SPADE",
         "pickable": true,
         "name": "SPADE",
-        "location": 11,
-        "description": [{
+        "location": 0,
+        "description": [
+            {
                 "text": "You are digging... ",
                 "time": 2000
             },
@@ -240,10 +242,12 @@
         "name": "KNIFE",
         "location": 23,
         "description": "You cut a piece of dragon's skin",
-        "require": [{
-            "item": 20,
-            "location": 23
-        }],
+        "require": [
+            {
+                "item": 20,
+                "location": 23
+            }
+        ],
         "effect": 24
     },
     {
@@ -279,7 +283,8 @@
         "pickable": true,
         "name": "SHEEP",
         "location": 23,
-        "description": [{
+        "description": [
+            {
                 "text": "The dragon noticed your gift...",
                 "time": 4000
             },
